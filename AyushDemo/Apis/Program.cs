@@ -1,6 +1,7 @@
 using Microsoft.OpenApi.Models;
 using ProductApi;
 using ProductBusiness;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +20,9 @@ builder.Services.AddSwaggerGen(c =>
 
 	// Add custom header
 	c.OperationFilter<ShowHeaderOperationFilter>();
+	var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+	var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+	c.IncludeXmlComments(xmlPath);
 }); ;
 builder.Services.AddHttpClient();
 builder.Services.AddScoped<ProductBL>();
