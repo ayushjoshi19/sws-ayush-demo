@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/AyushDemo/BL/bin/Debug/net6.0
+/AyushDemo/Apis/bin/Debug/net6.0
+/AyushDemo/Apis/obj
+/AyushDemo/Apis/Apis.http
+/AyushDemo/BL/obj/Debug/net6.0
+/AyushDemo/BL/obj
+/AyushDemo/ProductBusinessTests/bin/Debug/net6.0
+/AyushDemo/ProductBusinessTests/obj/Debug/net6.0
+/AyushDemo/ProductBusinessTests/obj
+/AyushDemo/.vs
+*.vsidx
+/AyushDemo/Apis/bin/Debug/net8.0
+/AyushDemo/ProductBusinessTests/bin/Debug/net8.0
+/AyushDemo/BL/bin/Debug/net8.0
