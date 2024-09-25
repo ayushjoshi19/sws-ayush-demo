@@ -1,7 +1,7 @@
 
 # sws-ayush-demo
 
-This is a sample .NET application designed to demonstrate how to launch a .NET project using a solution file.
+Here are the step by step instruction to run this project.
 
 ## Table of Contents
 
