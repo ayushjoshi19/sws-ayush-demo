@@ -11,6 +11,5 @@
 /AyushDemo/ProductBusinessTests/bin/Debug/net6.0
 /AyushDemo/ProductBusinessTests/obj/Debug/net6.0
 /AyushDemo/ProductBusinessTests/obj
-/AyushDemo/.vs/AyushDemo/DesignTimeBuild
-/AyushDemo/.vs/AyushDemo/v17
+/AyushDemo/.vs
 *.vsidx
