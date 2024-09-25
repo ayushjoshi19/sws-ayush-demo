@@ -12,8 +12,8 @@ This is a sample .NET application designed to demonstrate how to launch a .NET p
   - [Restoring Dependencies](#restoring-dependencies)
   - [Running the Application](#running-the-application)
 - [Accessing Swagger](#accessing-swagger)
-- [Contributing](#contributing)
-- [License](#license)
+- [API Usage](#api-usage)
+- [Running Unit Tests](#running-unit-tests)
 
 ## Prerequisites
 
@@ -62,13 +62,13 @@ dotnet run --project Apis\ProductApi.csproj
 
 you can access  Swagger for API documentation here:
 
-```
-http://localhost:5214/swagger/index.html
-```
+
+<http://localhost:5214/swagger/index.html>
+
 
 ## API Usage
 
-To interact with the API, you need to include the `X-SWS-Header` in your requests. The header should have the following format:
+To interact with the API, you need to include the `X-SWS-Header` in your requests. The header should have the following name and value:
 
 ```
 X-SWS-Header: 123
